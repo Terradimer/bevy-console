@@ -816,6 +816,7 @@ mod tests {
             logical_key: Key::Unidentified(NativeKey::Xkb(41)),
             state: ButtonState::Pressed,
             window: Entity::PLACEHOLDER,
+            repeat: false,
         };
 
         let config = vec![KeyCode::Unidentified(NativeKeyCode::Xkb(41))];
@@ -831,6 +832,7 @@ mod tests {
             logical_key: Key::Unidentified(NativeKey::Xkb(42)),
             state: ButtonState::Pressed,
             window: Entity::PLACEHOLDER,
+            repeat: false,
         };
 
         let config = vec![KeyCode::Unidentified(NativeKeyCode::Xkb(41))];
@@ -846,6 +848,7 @@ mod tests {
             logical_key: Key::Character("`".into()),
             state: ButtonState::Pressed,
             window: Entity::PLACEHOLDER,
+            repeat: false,
         };
 
         let config = vec![KeyCode::Backquote];
@@ -861,6 +864,7 @@ mod tests {
             logical_key: Key::Character("A".into()),
             state: ButtonState::Pressed,
             window: Entity::PLACEHOLDER,
+            repeat: false,
         };
 
         let config = vec![KeyCode::Backquote];
